@@ -1,4 +1,5 @@
 fn main() {
+    /* Nested loop
     let mut count = 0;
     'counting_up: loop {
         println!("count = {count}");
@@ -16,4 +17,11 @@ fn main() {
         count += 1;
     }
     println!("End count = {count}");
+    */
+    let mut number = 3;
+    while number != 0 {
+        println!("{number}");
+        number -= 1;
+    }
+    println!("LIFTOFF!!!");
 }
